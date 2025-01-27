@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+body {
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+  
+header {
+    padding: 20px;
+    background-image: url("imatges/fons1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+img {
+    width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+  
+  nav ul li {
+    margin: 0;
+}
+  
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+  
+nav ul li.inici a:hover {
+    background: #ff6600;
+    border-radius: 5px;
+    color: white;
+}
+
+nav ul li.tallers a:hover {
+    background: #2196f3;
+    border-radius: 5px;
+    color: white;
+}
+
+nav ul li.nosaltres a:hover {
+    background: #ffee00;
+    border-radius: 5px;
+    color: white;
+}
+
+nav ul li.contacte a:hover {
+    background: #65c200;
+    border-radius: 5px;
+    color: white;
+}
+
+#secció1 {
+    background-image: url("imatges/");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.requadre {
+    background: transparent;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 55%;
+}
+
+.requadre h2 {
+    color: #dc0000;
+    font-size: 2.5em;
+}
+
+.requadre p {
+    color: #555;
+    font-size: 1.2em;
+}
+
+.botó {
+    background: wheat;
+    border: 1px solid #dc0000;
+    border-radius: 30px;
+    width: 15%;
+    text-align: center;
+    font-size: 7px;
+}
+
+#botó h2 {
+    color: white;
+    font-size: 7px;
+}
+
+#secció2 {
+    padding: 20px;
+    text-align: center;
+    background: #f7f7f7;
+}
+
+.serveis {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+  
+.caixa {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    min-width: 250px;
+}
+
+.caixa h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+  
+.caixa p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5;
+}
+  
