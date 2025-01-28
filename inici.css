@@ -97,10 +97,9 @@ nav ul li.contacte a:hover {
     border-radius: 30px;
     width: 15%;
     text-align: center;
-    font-size: 7px;
 }
 
-#botó h2 {
+.botó h2 {
     color: white;
     font-size: 7px;
 }
